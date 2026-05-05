@@ -1,20 +1,228 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Xavier Tan Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f9f9f9; }
-    h1 { color: #051129; }
-    p { color: #142b57; font-size: 18px; }
-  </style>
-</head>
-<body>
-  <h1>Welcome to Xavier Tan's Portfolio</h1>
-  <h2>Hello world, this is a test to ensure it works</h2>
-  <p>GitHub Pages is working! This is a test page.</p>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
 
-</body>
+    <title>Xavier Tan | UI/UX Designer & Web Designer</title>
+    <meta
+      name="description"
+      content="Xavier Tan is a UI/UX and Web Designer based in Singapore, focused on designing simpler, more intuitive digital experiences." />
+
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Google Fonts: DM Sans for body, DM Serif Display for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/855ba38185.js" crossorigin="anonymous" defer></script>
+  </head>
+
+  <body>
+
+    <!-- ==================== NAV BAR ==================== -->
+
+    <header class="header">
+      <div class="header-content">
+        <nav class="nav">
+          <a href="/" class="nav-logo">
+            <!-- Replace with your actual logo SVG or img -->
+            <img class="nav-logo-img" src="img/logo.svg" alt="welcome to xavier tan's portfolio"></img>
+          </a>
+          <ul class="nav-items">
+            <li><a href="work.html" class="nav-link">Work</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+
+    <section class="hero-section">
+      <div class="hero-content">
+
+        <div class="hero-image-wrapper">
+          <img
+            src="img/hero-img.png"
+            alt="Xavier Tan portrait"
+            class="hero-portrait" />
+        </div>
+
+        <div class="hero-text-block">
+          <h1>Xavier Tan</h1>
+          <h2>UI/UX Designer | Web Designer</h2>
+          <p class="hero-description">
+            Designing simpler, more intuitive digital experiences. Focused on
+            user-centred solutions across web and mobile.
+          </p>
+          <a href="work.html" class="btn-primary">View My Work</a>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== ABOUT INTRO SECTION ==================== -->
+
+    <section class="intro-section">
+      <div class="intro-content">
+
+        <div class="intro-text-block">
+          <h2>Designing for a simpler tomorrow</h2>
+          <p>
+            A UI/UX designer based in Singapore with a background in media, focused on creating
+            clear and intuitive digital experiences. I design responsive web &amp; mobile interfaces that
+            improve usability and overall user experience.
+          </p>
+          <a href="about.html" class="btn-primary">About Me</a>
+        </div>
+
+        <div class="intro-image-wrapper">
+          <img
+            src="img/intro-img.png"
+            alt="Designing for a simpler tomorrow is a quote I stand by whenever I design."
+            class="intro-image" />
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== CASE STUDIES SECTION ==================== -->
+
+    <section class="casestudies-section">
+      <div class="casestudies-content">
+
+        <h2>Featured Case Studies</h2>
+
+        <!-- Case Study 1 -->
+        <article class="casestudy-item">
+            <h3>BlueTel Networks Website Revamp</h3>
+            <p>
+              Designing a responsive website to showcase the company's services, capabilities, and strengths.
+            </p>
+
+          <div class="casestudy-image-wrapper">
+            <img
+              src="img/casestudy1-thumbnail.png"
+              alt="BlueTel Networks Website Revamp case study preview"
+              class="casestudy-image" />
+          </div>
+
+          <div class="casestudy-meta-bottom">
+            <div class="casestudy-tags">
+              <span class="casestudy-year">2025</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">Web</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">UI/UX</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">B2B</span>
+            </div>
+            <a href="bluetel-case-study.html" class="casestudy-link">View Case Study &rarr;</a>
+          </div>
+        </article>
+
+            <div class="work-divider"></div>
+
+        <!-- Case Study 2 -->
+        <article class="casestudy-item">
+            <h3>foundit - Lost and Found App</h3>
+            <p>
+              Designing a mobile solution to simplify the return and retrieval of lost items in Singapore.
+            </p>
+
+          <div class="casestudy-image-wrapper">
+            <img
+              src="img/casestudy2-thumbnail.png"
+              alt="foundit Lost and Found App case study preview"
+              class="casestudy-image" />
+          </div>
+
+          <div class="casestudy-meta-bottom">
+            <div class="casestudy-tags">
+              <span class="casestudy-year">2024</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">Mobile</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">UI/UX</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">Product</span>
+            </div>
+            <a href="foundit-case-study.html" class="casestudy-link">View Case Study &rarr;</a>
+          </div>
+        </article>
+
+          <div class="work-divider"></div>
+
+        <!-- Case Study 3 -->
+        <article class="casestudy-item">
+            <h3>Shopee Mobile Experience Revamp</h3>
+            <p>
+              Redesigning key parts of its mobile experience to improve purchasing efficiency and usability.
+            </p>
+
+          <div class="casestudy-image-wrapper">
+            <img
+              src="img/casestudy3-thumbnail.png"
+              alt="Shopee Mobile Experience Revamp case study preview"
+              class="casestudy-image" />
+          </div>
+
+          <div class="casestudy-meta-bottom">
+            <div class="casestudy-tags">
+              <span class="casestudy-year">2024</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">Mobile</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">UI/UX</span>
+              <span class="casestudy-tag-divider">·</span>
+              <span class="casestudy-tag">B2C</span>
+            </div>
+            <a href="shopee-case-study.html" class="casestudy-link">View Case Study &rarr;</a>
+          </div>
+        </article>
+
+        <!-- View All Works CTA -->
+        <div class="casestudies-cta">
+          <a href="work.html" class="btn-primary">View All Works</a>
+        </div>
+
+      </div>
+    </section>
+
+        <div class="section-divider"></div>
+
+    <!-- ==================== CONTACT CTA SECTION ==================== -->
+
+    <section class="contact-cta-section">
+      <div class="contact-cta-content">
+        <h2>Open to UI/UX opportunities and freelance work.</h2>
+        <div class="contact-cta">
+        <a href="contact.html" class="btn-primary">Contact Me</a></div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-copyright">&copy; 2026 Xavier Tan</p>
+        <div class="footer-links">
+          <a href="mailto:xaviertan9329@gmail.com" class="footer-link">Email</a>
+          <a
+            href="https://www.linkedin.com/in/xavierr-tann"
+            target="_blank"
+            class="footer-link"
+            aria-label="Visit Xavier Tan's LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>
