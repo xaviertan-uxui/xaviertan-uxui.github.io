@@ -33,7 +33,6 @@
   font-display: swap;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -47,8 +46,8 @@ html {
 }
 
 body {
-  background-color: #0F1115;
-  color: #A8B0BB;
+  background-color: #0f1115;
+  color: #a8b0bb;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -71,7 +70,6 @@ img {
 }
 
 /****************NECESSARY SETTINGS END********************/
-
 /****************NAV BAR********************/
 
 .header {
@@ -80,11 +78,10 @@ img {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #0F1115;
+  background-color: #0f1115;
   display: flex;
   align-items: center;
   z-index: 100;
-
 }
 
 .header-content {
@@ -133,7 +130,7 @@ nav {
 .nav-items li a {
   font-size: 18px;
   font-weight: 600;
-  color: #A8B0BB;
+  color: #a8b0bb;
   text-decoration: none;
 }
 
@@ -143,24 +140,12 @@ nav {
 }
 
 .nav-items li a:hover {
-  color: #7D9BFF;
+  color: #7d9bff;
 }
 
 .nav-items li a.clicked {
-  color: #5A7EFF;
+  color: #5a7eff;
 }
-
-/* .checkbtn {
-  font-size: 26px;
-  color: #ffffff;
-  float: right;
-  display: none;
-  cursor: pointer;
-}
-
-#check {
-  display: none;
-} */
 
 a:focus,
 a:active {
@@ -169,14 +154,59 @@ a:active {
 }
 
 /****************NAV BAR END********************/
+/****************FOOTER********************/
+
+.footer {
+  padding: 0px 0px 45px 0px;
+}
+
+.footer-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  font-size: 18px;
+  font-weight: 600;
+  color: #a8b0bb;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.footer-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #a8b0bb;
+  transition: transform 0.2s cubic-bezier(0.14, 0.7, 0, 1.1);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #7d9bff;
+  transform: scale(1.07);
+}
+
+.footer-link.clicked {
+  color: #5a7eff;
+}
+
+/****************FOOTER END********************/
 /****************BUTTONS********************/
 
 .btn-primary {
   font-size: 16px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  background-color: #445FE0;
-  color: #EDEFF3;
+  background-color: #445fe0;
+  color: #edeff3;
   border-radius: 8px;
   padding: 15px 30px;
   border: none;
@@ -184,12 +214,14 @@ a:active {
   text-decoration: none;
   display: inline-block;
   align-self: flex-start;
-  transition: background-color 0.2s ease, transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
+  transition:
+    background-color 0.2s ease,
+    transform 0.3s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .btn-primary:hover {
-  background-color: #7D9BFF;
-  transform: scale(1.02);
+  background-color: #7d9bff;
+  transform: scale(1.03);
 }
 
 /****************BUTTONS END********************/
@@ -199,14 +231,14 @@ a:active {
   width: 80%;
   margin: 0 auto;
   height: 1px;
-  background-color: #2A2F36;
+  background-color: #2a2f36;
 }
 
 .work-divider {
   width: 100%;
   margin: 0 auto;
   height: 1px;
-  background-color: #2A2F36;
+  background-color: #2a2f36;
 }
 
 /****************SECTION DIVIDER END********************/
@@ -230,7 +262,7 @@ a:active {
   aspect-ratio: 3/4;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #2A2F36;
+  border: 1px solid #2a2f36;
   flex-shrink: 0;
 }
 
@@ -250,34 +282,33 @@ a:active {
 h1 {
   font-size: 72px;
   font-weight: 800;
-  color: #E6EAF0;
+  color: #e6eaf0;
   line-height: 1;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 600;
-  color: #C9D1D9;
+  color: #c9d1d9;
 }
 
-h3{
+h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #C9D1D9;
+  color: #c9d1d9;
 }
 
 p {
   font-size: 18px;
   font-weight: 400;
-  color: #A8B0BB;
+  color: #a8b0bb;
 }
 
 /****************HERO SECTION END********************/
 /****************INTRO SECTION********************/
 
 .intro-section {
-    padding: 120px 0px 120px 0px;
-
+  padding: 120px 0px 120px 0px;
 }
 
 .intro-content {
@@ -297,13 +328,12 @@ p {
   max-width: 800px;
 }
 
-
 .intro-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #2A2F36;
+  border: 1px solid #2a2f36;
   flex-shrink: 0;
 }
 
@@ -346,11 +376,11 @@ p {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .casestudy-image-wrapper:hover .casestudy-image {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .casestudy-meta-bottom {
@@ -377,19 +407,19 @@ p {
 
 .casestudy-tag-divider {
   font-size: 16px;
-  color: #A8B0BB;
+  color: #a8b0bb;
 }
 
 .casestudy-link {
   font-size: 18px;
   font-weight: 700;
-  color: #C9D1D9;
+  color: #c9d1d9;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .casestudy-link:hover {
-  color: #7D9BFF;
+  color: #7d9bff;
 }
 
 .casestudies-cta {
@@ -415,48 +445,334 @@ p {
 }
 
 /****************CONTACT CTA SECTION END********************/
-/****************FOOTER********************/
+/****************ABOUT HERO SECTION********************/
 
-.footer {
-  padding: 0px 0px 45px 0px;
+.about-hero-section {
+  padding: 150px 0px 120px 0px;
 }
 
-.footer-content {
+.about-hero-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-hero-image-wrapper {
+  width: 398px;
+  aspect-ratio: 3/4;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2a2f36;
+  flex-shrink: 0;
+}
+
+.about-hero-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-hero-bio {
+  text-align: center;
+  max-width: 1150px;
+}
+
+/****************ABOUT HERO SECTION END********************/
+/****************WORK APPROACH SECTION********************/
+
+.approach-section {
+  padding: 120px 0px 120px 0px;
+}
+
+.approach-content {
   max-width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 200px;
 }
 
-.footer-copyright {
-  font-size: 18px;
-  font-weight: 600;
-  color: #A8B0BB;
-}
-
-.footer-links {
+.approach-text-block {
+  flex: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+}
+
+.approach-image-wrapper {
+  width: 398px;
+  aspect-ratio: 3/4;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2a2f36;
+  flex-shrink: 0;
+}
+
+.approach-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/****************WORK APPROACH SECTION END********************/
+/****************STRENGTHS SECTION********************/
+
+.strengths-section {
+  padding: 120px 0px 120px 0px;
+}
+
+.strengths-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+
+.strength-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.strength-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a8b0bb;
+  line-height: 1.65;
+}
+
+/****************STRENGTHS SECTION END********************/
+/****************TOOLS SECTION********************/
+
+.tools-section {
+  padding: 120px 0px 120px 0px;
+}
+
+.tools-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 50px;
 }
 
-.footer-link {
-  font-size: 18px;
-  font-weight: 600;
-  color: #A8B0BB;
-  transition: transform 0.2s cubic-bezier(0.14, 0.7, 0, 1.1);
+.tools-card {
+  background-color: #161a20;
+  border: 1px solid #2a2f36;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tools-card-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.tools-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/****************TOOLS SECTION END********************/
+
+/****************PROJECTS HERO SECTION********************/
+
+.projects-hero-section {
+  padding: 180px 0px 45px 0px;
+}
+
+.projects-hero-content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/****************PROJECTS HERO SECTION END********************/
+/****************PROJECTS SECTION********************/
+
+.projects-section {
+  padding: 45px 0px 45px 0px;
+}
+
+.projects-section-ending {
+  padding: 45px 0px 120px 0px;
+}
+
+.projects-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/****************PROJECTS SECTION END********************/
+/****************PROJECTS GRID********************/
+
+.projects-grid {
+  display: grid;
+  gap: 50px 30px;
+}
+
+.projects-grid-3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/****************PROJECTS GRID END********************/
+/****************PROJECT CARD********************/
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
   text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
 
-.footer-link:hover {
-  color: #7D9BFF;
-  transform: scale(1.07);
+.project-card:hover {
+  opacity: 0.8;
 }
 
-.footer-link.clicked {
-  color: #5A7EFF;
+.project-card-image-wrapper {
+  width: 100%;
+  aspect-ratio: 16/7;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #1a1e24;
+  /* remove any transform from here */
 }
 
-/****************FOOTER END********************/
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.project-card:hover .project-card-image {
+  transform: scale(1.02);
+}
+
+.project-card-meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-card-year {
+  font-size: 16px;
+  color: #a8b0bb;
+}
+
+.project-card-tag {
+  font-size: 16px;
+  color: #a8b0bb;
+}
+
+.project-card-dot {
+  font-size: 16px;
+  color: #a8b0bb;
+}
+
+/****************PROJECT CARD END********************/
+
+/****************CONTACT PAGE LAYOUT********************/
+
+/* Makes the page fill the full viewport height so main can centre */
+.contact-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 16px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/****************CONTACT PAGE LAYOUT END********************/
+/****************CONTACT CONTAINER********************/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  text-align: center;
+}
+
+/****************CONTACT CONTAINER END********************/
+/****************CONTACT LINK ROWS********************/
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+
+.contact-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #445fe0;
+  border-radius: 8px;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    transform 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.contact-btns:hover {
+  background-color: #7d9bff;
+  transform: scale(1.02);
+}
+
+.contact-link-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #edeff3;
+}
+
+.contact-link-icon {
+  font-size: 16px;
+  color: #edeff3;
+}
+
+/****************CONTACT LINK ROWS END********************/
