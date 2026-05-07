@@ -318,6 +318,7 @@ p {
   flex-direction: row;
   align-items: center;
   gap: 200px;
+  justify-content: space-between;
 }
 
 .intro-text-block {
@@ -411,8 +412,8 @@ p {
 }
 
 .casestudy-link {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   color: #c9d1d9;
   text-decoration: none;
   transition: color 0.2s ease;
@@ -494,6 +495,7 @@ p {
   flex-direction: row;
   align-items: center;
   gap: 200px;
+  justify-content: space-between;
 }
 
 .approach-text-block {
@@ -776,3 +778,256 @@ p {
 }
 
 /****************CONTACT LINK ROWS END********************/
+
+/****************CASE STUDY SHARED LAYOUT********************/
+
+.cs-header-section {
+  padding: 180px 0px 120px 0px;
+}
+
+.cs-section {
+  padding: 120px 0px 120px 0px;
+}
+
+.problem-goal-section {
+  padding: 120px 0px 120px 0px;
+}
+
+.cs-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.problem-goal-content {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+  justify-content: space-between;
+}
+
+.problem-image-wrapper {
+  width: 398px;
+  aspect-ratio: 3/4;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2a2f36;
+  flex-shrink: 0;
+}
+
+.problem-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/****************CASE STUDY SHARED LAYOUT END********************/
+/****************CASE STUDY HEADER********************/
+
+.cs-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cs-meta-row {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.cs-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cs-meta-label {
+  font-weight: 600;
+}
+
+.cs-meta-value {
+  font-weight: 400;
+}
+
+.cs-meta-link {
+  color: #a8b0bb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cs-meta-link:hover {
+  color: #7d9bff;
+}
+
+/****************CASE STUDY HEADER END********************/
+/****************CASE STUDY IMAGE GRIDS********************/
+
+.full-length-image-wrapper {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 657px;
+}
+
+.work-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cs-img-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.cs-img-grid--3col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cs-img-grid--2col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cs-img-wrapper {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #161a20;
+  border: 1px solid #2a2f36;
+}
+
+.cs-img-wrapper--tall {
+  aspect-ratio: 9/16;
+}
+
+.cs-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/****************CASE STUDY IMAGE GRIDS END********************/
+/****************CASE STUDY TWO COLUMN********************/
+
+.cs-two-col {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 200px;
+}
+
+.cs-two-col-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cs-two-col-image {
+  width: 398px;
+  aspect-ratio: 3/4;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #2a2f36;
+  flex-shrink: 0;
+}
+
+.cs-two-col-image .cs-img {
+  width: 100%;
+  height: 100%;
+}
+
+/****************CASE STUDY TWO COLUMN END********************/
+/****************CASE STUDY BODY TEXT********************/
+
+.cs-body-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cs-body-bold {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c9d1d9;
+}
+
+.cs-list {
+  list-style: disc;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cs-list li {
+  font-size: 18px;
+}
+
+/****************CASE STUDY BODY TEXT END********************/
+/****************CASE STUDY ITERATIONS********************/
+
+.cs-iteration {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/****************CASE STUDY ITERATIONS END********************/
+/****************CASE STUDY HIGHLIGHTS********************/
+
+.cs-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/****************CASE STUDY HIGHLIGHTS END********************/
+/****************CASE STUDY BOTTOM NAV********************/
+
+.cs-bottom-nav {
+  padding: 0px 0px 120px 0px;
+}
+
+.cs-bottom-nav .cs-content {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cs-nav-back,
+.cs-nav-next {
+  font-size: 16px;
+  font-weight: 600;
+  color: #a8b0bb;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.2s cubic-bezier(0.14, 0.7, 0, 1.1);
+}
+
+.cs-nav-back:hover,
+.cs-nav-next:hover {
+  color: #7d9bff;
+  transform: scale(1.05);
+}
+
+.hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/****************CASE STUDY BOTTOM NAV END********************/
