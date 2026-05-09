@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>foundit | Xavier Tan</title>
+    <meta
+      name="description"
+      content="Case study: A mobile app designed to simplify the return and retrieval of lost items in Singapore."
+    />
+
+    <link rel="preload" href="../css/style.css" as="style" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+
+    <!-- Google Fonts: Poppins with different weight for different hierachy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/855ba38185.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <!-- ==================== NAV BAR ==================== -->
+
+    <header class="header">
+      <div class="header-content">
+        <nav class="nav">
+          <a href="/" class="nav-logo">
+            <!-- Replace with your actual logo SVG or img -->
+            <img
+              class="nav-logo-img"
+              src="../img/logo.svg"
+              alt="welcome to xavier tan's portfolio"
+            />
+          </a>
+          <ul class="nav-items">
+            <li><a href="../work.html">Work</a></li>
+            <li><a href="../about.html" class="nav-link">About</a></li>
+            <li><a href="../contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ==================== CASE STUDY HEADER ==================== -->
+
+    <section class="cs-header-section">
+      <div class="cs-content">
+        <div class="cs-header-text">
+          <h2>foundit</h2>
+          <h3>
+            A mobile app designed to simplify the return and retrieval of lost
+            items in Singapore.
+          </h3>
+          <p>
+            foundit was a group project where we were tasked to identify a
+            real-world problem and design a solution through a full UX process
+            across three phases: Research, Prototype, and Final Product. The
+            project focused on improving how lost items are returned and
+            retrieved in Singapore.
+          </p>
+
+          <div class="cs-meta-row">
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Role</span>
+              <span class="cs-meta-value">UX Research, UX/UI Designer</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Year</span>
+              <span class="cs-meta-value">2024</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Timeline</span>
+              <span class="cs-meta-value">3 months</span>
+            </div>
+            <div class="cs-meta-item">
+              <span class="cs-meta-label">Link</span>
+              <a
+                href="https://figmashort.link/KyJBwB"
+                target="_blank"
+                class="cs-meta-link"
+                >https://figmashort.link/KyJBwB</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="full-length-image-wrapper">
+          <img
+            src="../img/casestudy2-thumbnail.png"
+            alt="foundit case study preview"
+            class="work-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== PROBLEMS & GOALS ==================== -->
+
+    <section class="problem-goal-section">
+      <div class="problem-goal-content">
+        <div class="approach-text-block">
+          <h2>Problems & Goals</h2>
+
+          <p>
+            Returning lost items in Singapore is often inefficient. Even when
+            finders have sufficient information (such as the owner's NRIC), they
+            are frequently redirected across multiple agencies before
+            successfully returning the item.
+          </p>
+          <p>
+            On average, 86 lost property cases are reported to the Found and
+            Unclaimed Property Office (FUPO), with only about 60% successfully
+            resolved. This highlights gaps in the current system and missed
+            opportunities for successful returns.
+          </p>
+          <p>
+            The goal of this project was to better understand user pain points
+            in the current process and design a solution that simplifies both
+            the reporting and retrieval of lost items.
+          </p>
+        </div>
+
+        <div class="problem-image-wrapper">
+          <img
+            src="../img/problem-cs2.png"
+            alt="User survey and interview"
+            class="problem-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== PROCESS / METHODOLOGY ==================== -->
+
+    <section class="cs-section">
+      <div class="cs-content">
+        <div class="cs-body-stack">
+          <h2>Process / Methodology</h2>
+          <p>
+            To better understand the problem space, the team conducted user
+            research through surveys to identify key user groups and their pain
+            points.
+          </p>
+          <p>
+            From these insights, personas were developed to represent typical
+            users, along with an anti-persona to account for potential misuse of
+            the system. User journeys were also mapped to understand how users
+            currently navigate the process of losing or finding items, which
+            helped prioritise key flows in the app.
+          </p>
+          <p>
+            To further inform design decisions, existing lost-and-found
+            solutions were analysed. Competitor research and heuristic
+            evaluations were conducted to identify strengths and gaps in current
+            systems.
+          </p>
+        </div>
+
+        <div class="cs-img-grid cs-img-grid--3col">
+          <div class="cs-img-wrapper">
+            <img
+              src="../img/process1-cs2.png"
+              alt="persona form from user research"
+              class="cs-img"
+            />
+          </div>
+          <div class="cs-img-wrapper">
+            <img
+              src="../img/process2-cs2.png"
+              alt="competitor research for lost and found app"
+              class="cs-img"
+            />
+          </div>
+          <div class="cs-img-wrapper">
+            <img
+              src="../img/process3-cs2.png"
+              alt="Heursitics evaluation on similar apps"
+              class="cs-img"
+            />
+          </div>
+        </div>
+
+        <div class="cs-body-stack">
+          <p class="cs-body-bold">
+            These insights led to the definition of key features:
+          </p>
+          <ul class="cs-list">
+            <li>
+              SingPass Login - simplifies onboarding using existing user data
+            </li>
+            <li>Last Location Tracking - helps users retrace steps</li>
+            <li>QR Code System - enables quick reporting and identification</li>
+            <li>
+              In-App Messaging - allows direct communication between users
+            </li>
+          </ul>
+          <p>
+            These features were translated into wireframes to establish core
+            user flows and screen hierarchy. After refining the flows, a style
+            guide was developed to ensure visual consistency before moving into
+            high-fidelity mockups.
+          </p>
+        </div>
+
+        <div class="full-length-image-wrapper">
+          <img
+            src="../img/cs2-wireframe.png"
+            alt="foundit initial wireframes"
+            class="work-image"
+          />
+        </div>
+
+        <div class="cs-body-stack">
+          <p>
+            Usability testing (A/B testing) was conducted to evaluate whether
+            users could understand and navigate the flows effectively.
+          </p>
+          <div class="cs-iteration">
+            <p class="cs-body-bold">Homepage Navigation</p>
+            <p>
+              Based on usability testing, the navigation bar was made scrollable
+              and key actions were re-positioned to improve accessibility and
+              reduce clutter on the homepage.
+            </p>
+          </div>
+          <div class="cs-iteration">
+            <p class="cs-body-bold">Messaging System</p>
+            <p>
+              The messaging interface was refined to display more information
+              upfront, reducing the need for additional clicks while maintaining
+              a clean layout.
+            </p>
+          </div>
+          <div class="cs-iteration">
+            <p class="cs-body-bold">QR Scanning Flow</p>
+            <p>
+              The scanning experience was improved by refining animations and
+              introducing a clear “Start Search” action after scanning, helping
+              users better understand the next step.
+            </p>
+          </div>
+          <div class="cs-iteration">
+            <p class="cs-body-bold">Last Location Tracking</p>
+            <p>
+              The feature was enhanced with a clearer overlay displaying key
+              information. Icons were updated to better reflect real-world
+              locations, improving recognition and usability.
+            </p>
+          </div>
+          <p>
+            Before creating our high-fidelity mockups, we needed to finalized on
+            the design side of the application. This includes style guide,
+            typography and iconography, as well as any elements that we would
+            include in our application.
+          </p>
+        </div>
+
+        <div class="cs-img-grid cs-img-grid--4col">
+          <div class="cs-img-wrapper">
+            <img src="../img/process4-cs2.png" alt="mockup 1" class="cs-img" />
+          </div>
+          <div class="cs-img-wrapper">
+            <img src="../img/process5-cs2.png" alt="mockup 2" class="cs-img" />
+          </div>
+          <div class="cs-img-wrapper">
+            <img src="../img/process6-cs2.png" alt="mockup3" class="cs-img" />
+          </div>
+          <div class="cs-img-wrapper">
+            <img src="../img/process7-cs2.png" alt="mockup4" class="cs-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== SOLUTION / FINAL DESIGN ==================== -->
+
+    <section class="cs-section">
+      <div class="cs-content">
+        <div class="cs-body-stack">
+          <h2>Solution / Final Design</h2>
+          <p>
+            The final solution is a mobile application that streamlines the
+            process of reporting and retrieving lost items through a clear and
+            guided user flow. The app focuses on reducing friction at each step,
+            from onboarding to matching lost and found items.
+          </p>
+          <p>
+            Key features such as SingPass login, QR-based reporting, and in-app
+            messaging work together to create a more direct and efficient system
+            compared to existing methods. The design prioritises clarity and
+            ease of use, ensuring users can quickly understand what to do at
+            each stage.
+          </p>
+        </div>
+        <div class="cs-highlights">
+          <p class="cs-body-bold">Interaction Highlights:</p>
+          <ul class="cs-list">
+            <li>
+              Login - Simulated SingPass login using QR flow for quick and
+              familiar onboarding.
+            </li>
+            <li>
+              Homepage - Users can view last seen locations directly and
+              navigate features through a swipeable navigation bar.
+            </li>
+            <li>
+              Lost Property Report - Users report lost items and receive updates
+              when matches are found, with clear visual feedback throughout the
+              process.
+            </li>
+            <li>
+              Messaging - Users are notified of matches and can directly
+              communicate with finders within the app.
+            </li>
+            <li>
+              Found Property Report - QR scanning allows users to quickly log
+              found items and initiate the matching process.
+            </li>
+            <li>
+              Last Location Tracking - Users can view and navigate to previously
+              visited locations with route guidance.
+            </li>
+          </ul>
+        </div>
+
+        <div class="full-length-image-wrapper">
+          <img
+            src="../img/cs2-mockup.png"
+            alt="foundit final mockups"
+            class="work-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ==================== IMPACT & REFLECTION ==================== -->
+
+    <section class="cs-section">
+      <div class="cs-content">
+        <div class="cs-body-stack">
+          <h2>Impact &amp; Reflection</h2>
+          <p>
+            The project demonstrated how a structured UX process can be applied
+            from research to final design to solve a real-world problem. Through
+            user testing and iterations, the team was able to refine key flows
+            and improve usability across the application.
+          </p>
+          <p>
+            Working in a team environment also strengthened collaboration and
+            communication skills, while providing hands-on experience in
+            designing a full product using Figma. The project highlighted the
+            importance of aligning user needs with practical constraints,
+            especially when translating complex ideas into usable features.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CASE STUDY BOTTOM NAV ==================== -->
+
+    <nav class="cs-bottom-nav">
+      <div class="cs-content">
+        <a href="../work.html" class="cs-nav-back">
+          &larr; Back to All Works
+        </a>
+        <a href="Shopee-Revamp.html" class="cs-nav-next">
+          Next Project &rarr;
+        </a>
+      </div>
+    </nav>
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-copyright">&copy; 2026 Xavier Tan</p>
+        <div class="footer-links">
+          <a
+            href="mailto:xaviertan9329@gmail.com"
+            target="_blank"
+            class="footer-link"
+            >Email</a
+          >
+          <a
+            href="https://www.linkedin.com/in/xavierr-tann"
+            target="_blank"
+            class="footer-link"
+            aria-label="Visit Xavier Tan's LinkedIn"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

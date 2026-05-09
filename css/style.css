@@ -260,7 +260,7 @@ a:active {
 .hero-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -332,7 +332,7 @@ p {
 .intro-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -367,7 +367,7 @@ p {
 
 .casestudy-image-wrapper {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   max-height: 657px;
 }
@@ -464,7 +464,7 @@ p {
 .about-hero-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -509,7 +509,7 @@ p {
 .approach-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -573,13 +573,13 @@ p {
 .tools-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 45px;
 }
 
 .tools-card {
   background-color: #161a20;
   border: 1px solid #2a2f36;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -663,7 +663,7 @@ p {
 .project-card-image-wrapper {
   width: 100%;
   aspect-ratio: 16/7;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   background-color: #1a1e24;
   /* remove any transform from here */
@@ -814,7 +814,7 @@ p {
 .problem-image-wrapper {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -870,7 +870,7 @@ p {
 
 .full-length-image-wrapper {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   max-height: 657px;
 }
@@ -884,7 +884,11 @@ p {
 
 .cs-img-grid {
   display: grid;
-  gap: 30px;
+  gap: 45px;
+}
+
+.cs-img-grid--4col {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .cs-img-grid--3col {
@@ -897,7 +901,7 @@ p {
 
 .cs-img-wrapper {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   background-color: #161a20;
   border: 1px solid #2a2f36;
@@ -937,7 +941,7 @@ p {
 .cs-two-col-image {
   width: 398px;
   aspect-ratio: 3/4;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   border: 1px solid #2a2f36;
   flex-shrink: 0;
@@ -1025,9 +1029,21 @@ p {
   transform: scale(1.05);
 }
 
-.hidden {
-  visibility: hidden;
-  pointer-events: none;
+/****************CASE STUDY BOTTOM NAV END********************/
+
+/****************MP4 VIDEO PLAYER********************/
+.cs-video-wrapper {
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #161a20;
+  border: 1px solid #2a2f36;
 }
 
-/****************CASE STUDY BOTTOM NAV END********************/
+.cs-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/****************MP4 VIDEO PLAYER END********************/
