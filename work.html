@@ -12,7 +12,10 @@
     />
 
     <link rel="preload" href="css/style.css" as="style" />
+    <link rel="preload" href="css/queries.css" as="style" />
+
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/queries.css" />
 
     <!-- Google Fonts: DM Sans for body, DM Serif Display for headings -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,13 +34,18 @@
       <div class="header-content">
         <nav class="nav">
           <a href="/" class="nav-logo">
-            <!-- Replace with your actual logo SVG or img -->
             <img
               class="nav-logo-img"
               src="img/logo.svg"
               alt="welcome to xavier tan's portfolio"
             />
           </a>
+
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+
           <ul class="nav-items">
             <li><a class="clicked">Work</a></li>
             <li><a href="about.html" class="nav-link">About</a></li>
@@ -289,7 +297,7 @@
 
         <div class="projects-grid projects-grid-3col">
           <!-- Card 1 -->
-          <a href="#" class="project-card">
+          <a href="work/BlueTel-Datasheets.html" class="project-card">
             <h3>BlueTel Networks Datasheets</h3>
             <div class="project-card-image-wrapper">
               <img
@@ -305,7 +313,7 @@
           </a>
 
           <!-- Card 2 -->
-          <a href="#" class="project-card">
+          <a href="work/BlueTel-Internal-Campaign.html" class="project-card">
             <h3>BlueTel Networks Internal Campaign</h3>
             <div class="project-card-image-wrapper">
               <img
@@ -320,7 +328,7 @@
           </a>
 
           <!-- Card 3 -->
-          <a href="#" class="project-card">
+          <a href="work/Harmonicity18.html" class="project-card">
             <h3>Music Festival Collaterals</h3>
             <div class="project-card-image-wrapper">
               <img
@@ -336,7 +344,7 @@
           </a>
 
           <!-- Card 4 -->
-          <a href="#" class="project-card">
+          <a href="work/Braincell0.5.html" class="project-card">
             <h3>Braincell 0.5</h3>
             <div class="project-card-image-wrapper">
               <img
@@ -352,7 +360,7 @@
           </a>
 
           <!-- Card 5 -->
-          <a href="#" class="project-card">
+          <a href="work/Built-to-Scale.html" class="project-card">
             <h3>Built to Scale</h3>
             <div class="project-card-image-wrapper">
               <img

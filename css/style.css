@@ -69,6 +69,17 @@ img {
   color: revert; /* similar for colour, it will use the colour the browser thinks fits best with that highlight */
 }
 
+.checkbtn {
+  font-size: 26px;
+  color: #a8b0bb;
+  display: none;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
 /****************NECESSARY SETTINGS END********************/
 /****************NAV BAR********************/
 
@@ -326,7 +337,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 800px;
 }
 
 .intro-image-wrapper {
@@ -591,6 +601,7 @@ p {
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .tools-icon {
@@ -872,7 +883,6 @@ p {
   width: 100%;
   border-radius: 12px;
   overflow: hidden;
-  max-height: 657px;
 }
 
 .work-image {

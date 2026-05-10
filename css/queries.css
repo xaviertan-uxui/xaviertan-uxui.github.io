@@ -1,0 +1,940 @@
+/****************RESPONSIVE QUERIES********************/
+
+/****************1280px — SMALL LAPTOP********************/
+
+@media (max-width: 1280px) {
+  /****************NAV BAR********************/
+
+  .header-content {
+    max-width: 90%;
+  }
+
+  .nav-items {
+    gap: 35px;
+  }
+
+  /****************NAV BAR END********************/
+  /****************GLOBAL TYPOGRAPHY********************/
+
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /****************GLOBAL TYPOGRAPHY END********************/
+  /****************HERO SECTION********************/
+
+  .hero-section {
+    padding: 160px 0px 100px 0px;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    gap: 100px;
+  }
+
+  .hero-image-wrapper {
+    width: 320px;
+  }
+
+  .hero-text-block {
+    gap: 24px;
+  }
+
+  /****************HERO SECTION END********************/
+  /****************INTRO SECTION********************/
+
+  .intro-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .intro-content {
+    max-width: 90%;
+    gap: 100px;
+  }
+
+  .intro-image-wrapper {
+    width: 320px;
+  }
+
+  /****************INTRO SECTION END********************/
+  /****************CASE STUDIES SECTION********************/
+
+  .casestudies-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .casestudies-content {
+    max-width: 90%;
+  }
+
+  /****************CASE STUDIES SECTION END********************/
+  /****************CONTACT CTA SECTION********************/
+
+  .contact-cta-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .contact-cta-content {
+    max-width: 90%;
+  }
+
+  /****************CONTACT CTA SECTION END********************/
+  /****************FOOTER********************/
+
+  .footer-content {
+    max-width: 90%;
+  }
+
+  /****************FOOTER END********************/
+
+  /****************SECTION DIVIDER********************/
+
+  .section-divider {
+    width: 90%;
+  }
+
+  /****************SECTION DIVIDER END********************/
+  /****************ABOUT HERO SECTION********************/
+
+  .about-hero-section {
+    padding: 140px 0px 100px 0px;
+  }
+
+  .about-hero-content {
+    max-width: 90%;
+  }
+
+  .about-hero-image-wrapper {
+    width: 320px;
+  }
+
+  /****************ABOUT HERO SECTION END********************/
+  /****************WORK APPROACH SECTION********************/
+
+  .approach-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .approach-content {
+    max-width: 90%;
+    gap: 100px;
+  }
+
+  .approach-image-wrapper {
+    width: 320px;
+  }
+
+  /****************WORK APPROACH SECTION END********************/
+  /****************STRENGTHS SECTION********************/
+
+  .strengths-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .strengths-content {
+    max-width: 90%;
+  }
+
+  .strengths-grid {
+    gap: 50px;
+  }
+
+  /****************STRENGTHS SECTION END********************/
+  /****************TOOLS SECTION********************/
+
+  .tools-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .tools-content {
+    max-width: 90%;
+  }
+
+  .tools-grid {
+    gap: 24px;
+  }
+
+  /****************TOOLS SECTION END********************/
+  /****************PROJECTS HERO SECTION********************/
+
+  .projects-hero-section {
+    padding: 160px 0px 45px 0px;
+  }
+
+  .projects-hero-content {
+    max-width: 90%;
+  }
+
+  /****************PROJECTS HERO SECTION END********************/
+  /****************PROJECTS SECTION********************/
+
+  .projects-content {
+    max-width: 90%;
+  }
+
+  /****************PROJECTS SECTION END********************/
+  /****************CONTACT PAGE********************/
+
+  .contact-main {
+    max-width: 90%;
+  }
+
+  /****************CONTACT PAGE END********************/
+  /****************CASE STUDY********************/
+
+  .cs-header-section {
+    padding: 160px 0px 100px 0px;
+  }
+
+  .cs-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .problem-goal-section {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .cs-content {
+    max-width: 90%;
+  }
+
+  .problem-goal-content {
+    max-width: 90%;
+    gap: 100px;
+  }
+
+  .problem-image-wrapper {
+    width: 320px;
+  }
+
+  .cs-two-col {
+    gap: 100px;
+  }
+
+  .cs-two-col-image {
+    width: 320px;
+  }
+
+  .cs-meta-row {
+    gap: 40px;
+  }
+
+  /****************CASE STUDY END********************/
+
+  .about-hero-bio {
+    max-width: 800px;
+  }
+
+  .contact-links {
+    width: 50%;
+  }
+}
+
+/****************1280px END********************/
+/****************1048px — TABLET********************/
+
+@media (max-width: 1048px) {
+  /****************NAV BAR********************/
+
+  .header-content {
+    max-width: 90%;
+  }
+
+  .checkbtn {
+    display: block;
+    z-index: 201;
+    font-size: 24px;
+  }
+
+  #check:checked ~ .checkbtn {
+    color: #a8b0bb;
+  }
+
+  #check:checked ~ .checkbtn .fa-bars::before {
+    content: "\f00d";
+  }
+
+  .nav-items {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 65%;
+    height: 100vh;
+    background-color: #0f1115;
+    border-left: 1px solid #2a2f36;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0px 50px;
+    transition: right 0.3s cubic-bezier(0.5, 1, 0.89, 1);
+    z-index: 200;
+  }
+
+  #check:checked ~ .nav-items {
+    right: 0;
+  }
+
+  .nav-items li a {
+    font-size: 24px;
+  }
+
+  .footer-copyright {
+    font-size: 16px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  /****************NAV BAR END********************/
+  /****************GLOBAL TYPOGRAPHY********************/
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /****************GLOBAL TYPOGRAPHY END********************/
+  /****************HERO SECTION********************/
+
+  .hero-section {
+    padding: 140px 0px 80px 0px;
+  }
+
+  .hero-content {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .hero-image-wrapper {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .hero-text-block {
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  /****************HERO SECTION END********************/
+  /****************INTRO SECTION********************/
+
+  .intro-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .intro-content {
+    max-width: 90%;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: flex-start;
+  }
+
+  .intro-image-wrapper {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  /****************INTRO SECTION END********************/
+  /****************CASE STUDIES SECTION********************/
+
+  .casestudies-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .casestudies-content {
+    max-width: 90%;
+  }
+
+  .casestudy-meta-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /****************CASE STUDIES SECTION END********************/
+  /****************CONTACT CTA SECTION********************/
+
+  .contact-cta-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .contact-cta-content {
+    max-width: 90%;
+    gap: 30px;
+  }
+
+  /****************CONTACT CTA SECTION END********************/
+  /****************FOOTER********************/
+
+  .footer-content {
+    max-width: 90%;
+  }
+
+  .footer-links {
+    gap: 30px;
+  }
+
+  /****************FOOTER END********************/
+  /****************SECTION DIVIDER********************/
+
+  .section-divider {
+    width: 90%;
+  }
+
+  /****************SECTION DIVIDER END********************/
+  /****************ABOUT HERO SECTION********************/
+
+  .about-hero-section {
+    padding: 120px 0px 80px 0px;
+  }
+
+  .about-hero-content {
+    max-width: 90%;
+  }
+
+  .about-hero-image-wrapper {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  /****************ABOUT HERO SECTION END********************/
+  /****************WORK APPROACH SECTION********************/
+
+  .approach-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .approach-content {
+    max-width: 90%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .approach-image-wrapper {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  /****************WORK APPROACH SECTION END********************/
+  /****************STRENGTHS SECTION********************/
+
+  .strengths-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .strengths-content {
+    max-width: 90%;
+  }
+
+  .strengths-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  /****************STRENGTHS SECTION END********************/
+  /****************TOOLS SECTION********************/
+
+  .tools-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .tools-content {
+    max-width: 90%;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /****************TOOLS SECTION END********************/
+  /****************PROJECTS HERO SECTION********************/
+
+  .projects-hero-section {
+    padding: 130px 0px 30px 0px;
+  }
+
+  .projects-hero-content {
+    max-width: 90%;
+  }
+
+  /****************PROJECTS HERO SECTION END********************/
+  /****************PROJECTS SECTION********************/
+
+  .projects-content {
+    max-width: 90%;
+    gap: 30px;
+  }
+
+  .projects-grid-3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /****************PROJECTS SECTION END********************/
+  /****************CONTACT PAGE********************/
+
+  .contact-main {
+    max-width: 90%;
+    padding: 140px 24px;
+  }
+
+  .contact-links {
+    width: 70%;
+  }
+
+  /****************CONTACT PAGE END********************/
+  /****************CASE STUDY********************/
+
+  .cs-header-section {
+    padding: 130px 0px 80px 0px;
+  }
+
+  .cs-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .problem-goal-section {
+    padding: 80px 0px 80px 0px;
+  }
+
+  .cs-content {
+    max-width: 90%;
+    gap: 35px;
+  }
+
+  .problem-goal-content {
+    max-width: 90%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .problem-image-wrapper {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .cs-meta-row {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .cs-two-col {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .cs-two-col-image {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .cs-img-grid--3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cs-img-grid--4col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /****************CASE STUDY END********************/
+}
+
+/****************1048px END********************/
+/****************467px — MOBILE PHONE********************/
+
+@media (max-width: 567px) {
+  /****************NAV BAR********************/
+
+  .header {
+    height: 70px;
+  }
+
+  .header-content {
+    max-width: 100%;
+    padding: 0px 24px;
+  }
+
+  .nav-items {
+    width: 80%;
+    gap: 30px;
+    padding: 0px 32px;
+  }
+
+  .nav-items li a {
+    font-size: 20px;
+  }
+
+  /****************NAV BAR END********************/
+  /****************GLOBAL TYPOGRAPHY********************/
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .project-card-tag,
+  .casestudy-tag,
+  .casestudy-tags,
+  .casestudy-link {
+    font-size: 14px;
+  }
+
+  /****************GLOBAL TYPOGRAPHY END********************/
+  /****************HERO SECTION********************/
+
+  .hero-section {
+    padding: 110px 0px 60px 0px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 30px;
+  }
+
+  .hero-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-text-block {
+    gap: 16px;
+  }
+
+  /****************HERO SECTION END********************/
+  /****************INTRO SECTION********************/
+
+  .intro-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .intro-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 30px;
+  }
+
+  .intro-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /****************INTRO SECTION END********************/
+  /****************CASE STUDIES SECTION********************/
+
+  .casestudies-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .casestudies-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 35px;
+  }
+
+  /****************CASE STUDIES SECTION END********************/
+  /****************CONTACT CTA SECTION********************/
+
+  .contact-cta-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .contact-cta-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 24px;
+  }
+
+  /****************CONTACT CTA SECTION END********************/
+  /****************FOOTER********************/
+
+  .footer {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .footer-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer-links {
+    gap: 24px;
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  /****************FOOTER END********************/
+  /****************SECTION DIVIDER********************/
+
+  .section-divider {
+    width: 100%;
+  }
+
+  /****************SECTION DIVIDER END********************/
+  /****************ABOUT HERO SECTION********************/
+
+  .about-hero-section {
+    padding: 100px 0px 60px 0px;
+  }
+
+  .about-hero-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 24px;
+  }
+
+  .about-hero-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /****************ABOUT HERO SECTION END********************/
+  /****************WORK APPROACH SECTION********************/
+
+  .approach-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .approach-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 30px;
+  }
+
+  .approach-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /****************WORK APPROACH SECTION END********************/
+  /****************STRENGTHS SECTION********************/
+
+  .strengths-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .strengths-content {
+    max-width: 100%;
+    padding: 0px 24px;
+  }
+
+  .strengths-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  /****************STRENGTHS SECTION END********************/
+  /****************TOOLS SECTION********************/
+
+  .tools-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .tools-content {
+    max-width: 100%;
+    padding: 0px 24px;
+  }
+
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .tools-card {
+    padding: 16px;
+  }
+
+  .tools-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  /****************TOOLS SECTION END********************/
+  /****************PROJECTS HERO SECTION********************/
+
+  .projects-hero-section {
+    padding: 110px 0px 30px 0px;
+  }
+
+  .projects-hero-content {
+    max-width: 100%;
+    padding: 0px 24px;
+  }
+
+  /****************PROJECTS HERO SECTION END********************/
+  /****************PROJECTS SECTION********************/
+
+  .projects-section {
+    padding: 30px 0px 30px 0px;
+  }
+
+  .projects-section-ending {
+    padding: 30px 0px 60px 0px;
+  }
+
+  .projects-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 24px;
+  }
+
+  .projects-grid-3col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projects-grid {
+    gap: 35px 0px;
+  }
+
+  /****************PROJECTS SECTION END********************/
+  /****************CONTACT PAGE********************/
+
+  .contact-main {
+    max-width: 100%;
+    padding: 120px 24px 60px 24px;
+  }
+
+  .contact-links {
+    width: 100%;
+  }
+
+  .contact-btns {
+    padding: 14px 20px;
+  }
+
+  /****************CONTACT PAGE END********************/
+  /****************CASE STUDY********************/
+
+  .cs-header-section {
+    padding: 110px 0px 60px 0px;
+  }
+
+  .cs-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .problem-goal-section {
+    padding: 60px 0px 60px 0px;
+  }
+
+  .cs-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    gap: 30px;
+  }
+
+  .problem-goal-content {
+    max-width: 100%;
+    padding: 0px 24px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .problem-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cs-meta-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cs-two-col {
+    gap: 30px;
+  }
+
+  .cs-two-col-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cs-img-grid--3col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cs-img-grid--2col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cs-img-grid--4col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cs-img-grid {
+    gap: 16px;
+  }
+
+  .cs-body-bold {
+    font-size: 15px;
+  }
+
+  .cs-list li {
+    font-size: 15px;
+  }
+
+  .cs-bottom-nav {
+    padding: 0px 0px 60px 0px;
+  }
+
+  .cs-nav-back,
+  .cs-nav-next {
+    font-size: 14px;
+  }
+
+  /****************CASE STUDY END********************/
+}
+
+/****************467px END********************/
+/****************RESPONSIVE QUERIES END********************/
