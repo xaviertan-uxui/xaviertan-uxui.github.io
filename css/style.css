@@ -156,6 +156,11 @@ nav {
 
 .nav-items li a.clicked {
   color: #5a7eff;
+  pointer-events: none;
+}
+
+.nav-items li:has(a.clicked):hover {
+  transform: none;
 }
 
 a:focus,
