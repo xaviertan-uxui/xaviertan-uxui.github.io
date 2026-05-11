@@ -1057,3 +1057,35 @@ p {
   display: block;
 }
 /****************MP4 VIDEO PLAYER END********************/
+
+/****************SCROLL PROGRESS BAR********************/
+
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #445fe0;
+  z-index: 999;
+  transition: width 0.1s linear;
+}
+
+/****************SCROLL PROGRESS BAR END********************/
+
+/****************SCROLL ANIMATIONS********************/
+
+.animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.5s cubic-bezier(0.5, 1, 0.89, 1),
+    transform 0.5s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.animate.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/****************SCROLL ANIMATIONS END********************/
